@@ -119,18 +119,22 @@ main{
 }
 
 footer{
-    height: 70px;
+    font-size: .7rem;
+    color: white;
     background-color: #1a1a1a;
+    padding: 1rem 0;
 }
 
 .reference{
-    height: 50px;
-    width: 150px;
-    background-color: aqua;
+    width: 35%;
 }
 
-.contacts{
-    height: 50px;
-    width: 150px;
-    background-color: aqua;
+.reference nav{
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.contacts img{
+    height: 16px;
+    fill: white;
 }
