@@ -5,30 +5,36 @@
     margin: 0;
 }
 
+body{
+    font-family: 'poppins', sans-serif;
+}
+
 .flexbox{
     display: flex;
 }
 
-header{
-    height: 50px;
-    background-color: #ff6900;
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
-.logo{
-    height: 30px;
-    width: 100px;
-    background-color: blueviolet;
+header{
+    background-color: #ff6900;
+    padding: .8rem 0;
+    color: white;
+}
+
+.logo img{
+    height: 1rem;
 }
 
 nav{
-    height: 30px;
-    width: 100px;
-    background-color: aqua;
+    height: 100%
 }
 
 .container{
     height: 100%;
-    padding: 0 15%;
+    padding: 0 12%;
     justify-content: space-between;
     align-items: center;
 }
@@ -37,18 +43,37 @@ main{
     padding: 70px 0;
 }
 
+.product img{
+    width: 100%;
+}
+
 .cards-row{
     justify-content: space-between;
-    height: 270px;
     width: 100%;
-    background-color: wheat;
     margin-bottom: 10%;
 }
 
 .product{
-    width: 30%;
-    height: 100%;
-    background-color: aquamarine;
+    width: 32%;
+}
+
+.brand{
+    font-size: .8rem;
+}
+
+.name{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.sale{
+    color: red;
+    font-size: .8rem;
+}
+
+.price{
+    text-decoration: line-through;
+    font-size: .8rem;
 }
 
 footer{
