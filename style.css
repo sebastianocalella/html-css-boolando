@@ -134,7 +134,11 @@ footer{
     justify-content: space-between;
 }
 
+.contacts nav{
+    justify-content: space-between;
+    padding-top: .3rem;
+}
+
 .contacts img{
-    height: 16px;
-    fill: white;
+    height: 20px;
 }
