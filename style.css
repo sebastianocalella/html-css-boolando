@@ -13,7 +13,7 @@ body{
     display: flex;
 }
 
-.relative{
+.relative-image{
     position: relative;
 }
 
@@ -70,6 +70,21 @@ main{
     padding: 0 1rem;
 }
 
+.ticket-container{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.percentual-sale{
+    font-size: .8rem;
+    background-color: red;
+    padding: .2rem .5rem;
+}
+
+
+
 .brand{
     font-size: .8rem;
 }
@@ -82,6 +97,7 @@ main{
 .sale{
     color: red;
     font-size: .8rem;
+    font-weight: bold;
 }
 
 .price{
