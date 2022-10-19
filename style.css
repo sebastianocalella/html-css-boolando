@@ -13,6 +13,11 @@ body{
     display: flex;
 }
 
+.fl-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .relative-image{
     position: relative;
 }
@@ -78,8 +83,16 @@ main{
 }
 
 .percentual-sale{
+    display: inline-block;
     font-size: .8rem;
     background-color: red;
+    padding: .2rem .5rem;
+}
+
+.sustainability{
+    display: inline-block;
+    font-size: .8rem;
+    background-color: #008000;
     padding: .2rem .5rem;
 }
 
