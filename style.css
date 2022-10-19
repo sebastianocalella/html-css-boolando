@@ -57,7 +57,7 @@ nav{
 }
 
 main{
-    padding: 15% 0;
+    padding: 8% 0;
 }
 
 .cards-row{
@@ -140,6 +140,10 @@ main{
 }
 
 footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
     font-size: .7rem;
     color: white;
     background-color: #1a1a1a;
