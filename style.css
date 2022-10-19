@@ -34,7 +34,7 @@ nav{
 }
 
 main{
-    padding-top: 70px;
+    padding: 70px 0;
 }
 
 .cards-row{
@@ -49,4 +49,21 @@ main{
     width: 30%;
     height: 100%;
     background-color: aquamarine;
+}
+
+footer{
+    height: 70px;
+    background-color: #1a1a1a;
+}
+
+.reference{
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+}
+
+.contacts{
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
 }
