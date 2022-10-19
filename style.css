@@ -32,3 +32,21 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+main{
+    padding-top: 70px;
+}
+
+.cards-row{
+    justify-content: space-between;
+    height: 270px;
+    width: 100%;
+    background-color: wheat;
+    margin-bottom: 10%;
+}
+
+.product{
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+}
