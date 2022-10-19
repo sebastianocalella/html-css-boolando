@@ -46,7 +46,20 @@ header{
 }
 
 nav{
-    height: 50%
+    height: 50%;
+    width: 22%;
+    justify-content: space-between;
+}
+
+#tool-list{
+    width: 12%;
+    justify-content: space-around;
+}
+
+#tool-list img{
+    opacity: 1;
+    filter: brightness(0);
+    filter: invert(1);
 }
 
 .container{
@@ -155,6 +168,7 @@ footer{
 }
 
 .reference nav{
+    width: 100%;
     margin-top: 1rem;
     justify-content: space-between;
 }
